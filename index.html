@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logo Example</title>
+    <style>
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background-color: #f0f0f0; /* Example background color */
+        }
+        .logo {
+            width: 100px; /* Set the width of the logo */
+        }
+        .search-bar {
+            margin-right: auto; /* Push the search bar to the left */
+        }
+        .search-bar input[type="text"] {
+            width: 200px; /* Adjust the width of the search input field */
+            padding: 5px; /* Adjust padding */
+            border-radius: 5px; /* Add border radius */
+        }
+        .search-bar button {
+            padding: 5px 10px; /* Adjust padding */
+            border-radius: 5px; /* Add border radius */
+            cursor: pointer; /* Change cursor to pointer on hover */
+        }
+        .donate-icon img {
+            width: 40px; /* Set the width of the donate icon */
+            height: auto; /* Maintain aspect ratio */
+            margin-right: 10px; /* Add margin to separate from logo */
+        }
+
+
+  /* New CSS code for the navigation menu */
+        header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f0f0f0; /* Example background color */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 10px;
+    color: #333; /* Link color */
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    background-color: #ddd; /* Hover background color */
+    color: #000; /* Hover text color */
+}
+
+
+
+/* Your existing CSS styles */
+footer {
+            background-color: #f0f0f0;
+            padding: 20px;
+            text-align: center;
+        }
+        footer p {
+            margin: 5px 0;
+        }
+        footer a {
+            color: #333;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+        section img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto; /* Center the image */
+        }
+        aside {
+            background-color: #f9f9f9;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a shadow effect */
+            float: left; /* Float the aside to the left */
+            width: 25%; /* Adjust the width of the aside */
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <a href="#" class="donate-icon"><img src="C:\Users\HP\Downloads\donation.png" alt="Donate"></a> <!-- Donate icon -->
+        <div class="search-bar">
+            <form action="/search" method="get">
+                <input type="text" name="query" placeholder="Search...">
+                <button type="submit">Search</button>
+            </form>
+        </div>
+        <img class="logo" src="C:\Users\HP\Downloads\shape.png" alt="Company Logo">
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Other content of your website goes here -->
+
+        <section id="mission">
+            <h2>Mission Statement</h2>
+            <p>Our Vision
+                We seek a world of hope that is inclusive and just, where all people live in dignity and security.</p>
+            <p>Our Mission
+                To save lives, enable social protection and defeat poverty.</p>
+            <!-- Add more paragraphs as needed to describe the mission -->
+            <img src="C:\Users\HP\Downloads\istockphoto-808445652-612x612.jpg" alt="Big Picture">
+        </section>
+
+        <!-- Aside Section -->
+        <aside>
+           <h3>Important Information</h3>
+           <p>This is some important information that is tangentially related to the main content of the page.</p>
+           <!-- You can add more content here, such as advertisements or additional links -->
+        </aside>
+
+
+        <!-- Footer Section -->
+    <footer>
+        <div>
+            <h3>Contact Information</h3>
+            <p>Email: info@example.com</p>
+            <p>Phone: +1234567890</p>
+        </div>
+        <div>
+            <h3>Social Media Links</h3>
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+            <!-- Add more social media links as needed -->
+        </div>
+        <div>
+            <p>&copy; 2024 NGO Name. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    
+</body>
+</html>
